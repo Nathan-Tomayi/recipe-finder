@@ -92,7 +92,7 @@ export default function Favorite(){
                     bg="#000"
                     color="#fff"
                     p={"1.2em"}
-                    px={isFavorite ? "5em" : "1.2em"}
+                    px={isFavorite ? { base: "1em", md: "5em" } : "1.2em"}
                     fontSize={".7rem"}
                     fontWeight={"medium"}
                     onClick={() => {
