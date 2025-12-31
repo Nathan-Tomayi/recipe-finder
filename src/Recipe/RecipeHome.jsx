@@ -1,6 +1,6 @@
 import { Box, Button, Text, Image, Input, SimpleGrid, useDisclosure, ModalOverlay, ModalContent,ModalBody,ModalFooter,Modal, ModalHeader, ModalCloseButton, UnorderedList, ListItem, OrderedList } from "@chakra-ui/react"
-import { AnimatePresence, motion } from "framer-motion";
-import { useContext, useEffect, useRef, useState } from "react";
+
+import { useContext, useEffect,  useState } from "react";
 import { FaCaretLeft, FaCaretRight, FaFilter, FaSearch } from "react-icons/fa";
 import {RecipeReducerContext} from './RecipeReducer'
 import { ACTIONS } from "./RecipeReducer";
@@ -167,7 +167,7 @@ export default function RecipeHome(){
           </Box>
 
           <Image
-            src="src/Recipe/img/food.png"
+            src="./img/food.png"
             objectFit={"cover"}
             boxSize={"750px"}
             display={{ base: "none", xl: "flex" }}
@@ -198,7 +198,7 @@ export default function RecipeHome(){
               zIndex={1000}
             >
               <Image
-                src="src/Recipe/img/Rectangle 18.png"
+                src="./img/Rectangle 18.png"
                 w={{ base: "80px", md: "200px", lg: "200px" }}
                 h={{ base: "auto", xl: "369px" }}
                 objectFit={"cover"}
@@ -206,14 +206,14 @@ export default function RecipeHome(){
                 /* bg="green.200" */
               />
               <Image
-                src="src/Recipe/img/Rectangle 19.png"
+                src="./img/Rectangle 19.png"
                 w={{ base: "80px", md: "200px", lg: "200px" }}
                 h={{ base: "auto", xl: "369px" }}
                 objectFit={"cover"}
                 borderRadius="144px"
               />
               <Image
-                src="src/Recipe/img/Rectangle 20.png"
+                src="./img/Rectangle 20.png"
                 w={{ base: "80px", md: "200px", lg: "200px" }}
                 h={{ base: "auto", xl: "369px" }}
                 objectFit={"cover"}
@@ -261,22 +261,22 @@ export default function RecipeHome(){
                   gap={{ base: ".5em", xl: "1.3125em" }}
                 >
                   <Image
-                    src="src/Recipe/img/Ellipse 3.png"
+                    src="./img/Ellipse 3.png"
                     w={{ base: "70px", lg: "100px" }}
                     h={{ base: "70px", lg: "100px" }}
                   />
                   <Image
-                    src="src/Recipe/img/Ellipse 4.png"
+                    src="./img/Ellipse 4.png"
                     w={{ base: "70px", lg: "100px" }}
                     h={{ base: "70px", lg: "100px" }}
                   />
                   <Image
-                    src="src/Recipe/img/Ellipse 5.png"
+                    src="./img/Ellipse 5.png"
                     w={{ base: "70px", lg: "100px" }}
                     h={{ base: "70px", lg: "100px" }}
                   />
                   <Image
-                    src="src/Recipe/img/Ellipse 6.png"
+                    src="./img/Ellipse 6.png"
                     w={{ base: "70px", lg: "100px" }}
                     h={{ base: "70px", lg: "100px" }}
                   />

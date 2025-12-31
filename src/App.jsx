@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import {Routes, Route, Link} from 'react-router-dom'
 
-import { motion, useAnimationControls } from "framer-motion";
+import {motion,  useAnimationControls } from "framer-motion";
 import { Box, Text } from "@chakra-ui/react";
 import Favorite from "./Recipe/RecipeFav";
 import RecipeHome from "./Recipe/RecipeHome";
